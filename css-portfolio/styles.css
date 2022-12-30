@@ -147,7 +147,7 @@ text-decoration: none;
 
 .section-item1{
     max-width: 360px;
-    width: calc((100% - 60px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .section-item {
@@ -189,7 +189,6 @@ text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
-    min-width: 360px;
 }
 
 .section-title3 {
