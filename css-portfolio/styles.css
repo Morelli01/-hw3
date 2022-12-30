@@ -99,69 +99,12 @@ text-decoration: none;
     display: flex;
     text-align: center;
     justify-content: center;
-    color: #2E2F42;
 }
 
 .std:hover,
 .std:focus {
     background-color: #404BBF;
         color: #FFFFFF;
-}
-
-.std1{display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    width: 69px;
-    height: 48px;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-}
-
-.std2{display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-
-    width: 116px;
-    height: 48px;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-}
-
-.std3{flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-
-    width: 78px;
-    height: 48px;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-}
-
-.std4{flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-
-    width: 101px;
-    height: 48px;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
-}
-
-.std5{flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 24px;
-
-    width: 126px;
-    height: 48px;
-border: 1px solid #E7E9FC;
-border-radius: 4px;
 }
 
 .contacts {
@@ -182,7 +125,8 @@ border-radius: 4px;
 }
 
 .section {
-    margin-bottom: 48px;
+    margin-top: 96px;
+    margin-bottom: 120px
 }
 
 .section-list{
@@ -191,8 +135,7 @@ border-radius: 4px;
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px
 }
 
 .section-list1 {
@@ -210,7 +153,6 @@ border-radius: 4px;
 .section-item {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 48px;
     background-color: #FFFFFF;
 }
 
@@ -225,6 +167,8 @@ border-radius: 4px;
         font-size: 16px;
         line-height: 1.5em;
     cursor: pointer;
+    padding: 12px 24px;
+        border-radius: 4px;
 }
 
 .section-image {
@@ -239,8 +183,6 @@ border-radius: 4px;
 .border{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     border-bottom: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
@@ -275,7 +217,6 @@ border-radius: 4px;
 }
 
 .footer-link {
-    margin-bottom: 15px;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -289,6 +230,7 @@ border-radius: 4px;
 }
 
 .footer-paragraph {
+    margin-top: 16px;
     max-width: 264px;
     color: #E7E9FC;
     font-family: var(--style-text);
